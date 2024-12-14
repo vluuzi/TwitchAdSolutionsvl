@@ -150,7 +150,7 @@ twitch-videoad.js text/javascript
                         if (adBlockDiv == null) {
                             adBlockDiv = getAdBlockDiv();
                         }
-                        adBlockDiv.P.textContent = 'Blocking ads';
+                        adBlockDiv.P.textContent = ' ';
                         adBlockDiv.style.display = 'block';
                     } else if (e.data.key == 'HideAdBlockBanner') {
                         if (adBlockDiv == null) {
